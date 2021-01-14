@@ -32,6 +32,8 @@ a:link {
     border: 2px solid #b5b8b6;
     padding: 3px;
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 a:visited {
     background-color: #b5b8b6;
@@ -40,6 +42,8 @@ a:visited {
     border: 10px solid #b5b8b6;
     padding: 10px;
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 a:hover {
     background-color: #b5b8b6;
@@ -48,6 +52,8 @@ a:hover {
     border: 10px solid #b5b8b6;
     padding: 10px;
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 a:active {
     background-color: #b5b8b6;
@@ -56,4 +62,6 @@ a:active {
     border: 10px solid #b5b8b6;
     padding: 10px;
     margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
