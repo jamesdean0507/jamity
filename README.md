@@ -2,10 +2,10 @@
 
 jamity.eth landing page
 
-IPFS Link:    https://ipfs.io/ipfs/QmeUrhgqdG1cDBJLZzfiwhfYF8FjFh2WoppqFkgo84NBCc
+IPFS Link:    https://gateway.pinata.cloud/ipfs/QmUxQooJDnuaafLi23cuChb6ab4sP1VXaiywQs6Fm7FTBG
 
-ENS Content Hash: https://bafybeihp2uzjh4u52znpx7lz7kwgsx5zpt664kcfe6hbakwpde6rhgnb4e.ipfs.dweb.link/
+ENS Content Hash: https://ipfs://QmUxQooJDnuaafLi23cuChb6ab4sP1VXaiywQs6Fm7FTBG
 
-ENS Domain Link (Requires Web3 compatible browser):    jamity.eth/
+ENS Domain Link (Requires Web3 compatible browser):    https://jamity.eth/
 
-ENS Domain Link (Without Web3):    jamity.eth.link
+ENS Domain Link (Without Web3):    https://jamity.eth.link
