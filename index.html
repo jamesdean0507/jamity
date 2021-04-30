@@ -10,64 +10,154 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <img src="jamity.gif" alt="jamity" style="width: fit-content; height: fit-content;">
-        <br><br><br>
-        <div class="flex-container">
-            <div id="github_button_container"></div>
-            <script type="text/babel">
-                const image = <img src="gitLink.png" alt="github"></img>;
-                function linkImage(image) {
-                    return <a href="https://github.com/jamesdean0507" target="_blank">{image}</a>;
-                }
-                const element = <div>{linkImage(image)}</div>;
-                ReactDOM.render(element, document.getElementById('github_button_container'));
-            </script>
-            <div id="linkedin_button_container"></div>
-            <script type="text/babel">
-                const image = <img src="linkedinLink.png" alt="linkedin"></img>;
-                function linkImage(image) {
-                    return <a href="https://www.linkedin.com/in/james-dean-b663461bb" target="_blank">{image}</a>;
-                }
-                const element = <div>{linkImage(image)}</div>;
-                ReactDOM.render(element, document.getElementById('linkedin_button_container'));
-            </script>
-            <div id="opensea_button_container"></div>
-            <script type="text/babel">
-                const image = <img src="shop.png" alt="shop"></img>;
-                function linkImage(image) {
-                    return <a href="https://opensea.io/collection/amity" target="_blank">{image}</a>;
-                }
-                const element = <div>{linkImage(image)}</div>;
-                ReactDOM.render(element, document.getElementById('opensea_button_container'));
-            </script>
-            <div id="instagram_button_container"></div>
-            <script type="text/babel">
-                const image = <img src="instagramLink.png" alt="instagram"></img>;
-                function linkImage(image) {
-                    return <a href="https://www.instagram.com/soultrvsh/" target="_blank">{image}</a>;
-                }
-                const element = <div>{linkImage(image)}</div>;
-                ReactDOM.render(element, document.getElementById('instagram_button_container'));
-            </script>
-            <div id="twitter_button_container"></div>
-            <script type="text/babel">
-                const image = <img src="twitterLink.png" alt="twitter"></img>;
-                function linkImage(image) {
-                    return <a href="https://twitter.com/s1ippinJimmy" target="_blank">{image}</a>;
-                }
-                const element = <div>{linkImage(image)}</div>;
-                ReactDOM.render(element, document.getElementById('twitter_button_container'));
-            </script>
-            <div id="email_button_container"></div>
-            <script type="text/babel">
-                const image = <img src="emailLink.png" alt="email"></img>;
-                function linkImage(image) {
-                    return <a href="mailto:jamesdean0507@gmail.com" target="_blank">{image}</a>;
-                }
-                const element = <div>{linkImage(image)}</div>;
-                ReactDOM.render(element, document.getElementById('email_button_container'));
-            </script>
+        <div class="row-container">
+            <div class="header">
+                <div id="gif-container"></div>
+                <img src="jamity.gif" alt="jamity" style="width: fit-content; height: fit-content;">
+                <br><br><br>
+            </div>
+            <div class="flex-container">
+                <div id="github_button_container"></div>
+                <script type="text/babel">
+                    function linkImage() {
+                        return <a href="https://github.com/jamesdean0507" target="_blank">github</a>;
+                    }
+                    const element = <div>{linkImage()}</div>;
+                    ReactDOM.render(element, document.getElementById('github_button_container'));
+                </script>
+                <div id="linkedin_button_container"></div>
+                <script type="text/babel">
+                    function linkImage() {
+                        return <a href="https://www.linkedin.com/in/james-dean-b663461bb" target="_blank">linkedin</a>;
+                    }
+                    const element = <div>{linkImage()}</div>;
+                    ReactDOM.render(element, document.getElementById('linkedin_button_container'));
+                </script>
+                <div id="opensea_button_container"></div>
+                <script type="text/babel">
+                    function linkImage() {
+                        return <a href="https://opensea.io/collection/amity" target="_blank">myNFT</a>;
+                    }
+                    const element = <div>{linkImage()}</div>;
+                    ReactDOM.render(element, document.getElementById('opensea_button_container'));
+                </script>
+                <div id="instagram_button_container"></div>
+                <script type="text/babel">
+                    function linkImage() {
+                        return <a href="https://www.instagram.com/soultrvsh/" target="_blank">instagram</a>;
+                    }
+                    const element = <div>{linkImage()}</div>;
+                    ReactDOM.render(element, document.getElementById('instagram_button_container'));
+                </script>
+                <div id="twitter_button_container"></div>
+                <script type="text/babel">
+                    function linkImage() {
+                        return <a href="https://twitter.com/s1ippinJimmy" target="_blank">twitter</a>;
+                    }
+                    const element = <div>{linkImage()}</div>;
+                    ReactDOM.render(element, document.getElementById('twitter_button_container'));
+                </script>
+                <div id="email_button_container"></div>
+                <script type="text/babel">
+                    function linkImage() {
+                        return <a href="mailto:jamesdean0507@gmail.com" target="_blank">email</a>;
+                    }
+                    const element = <div>{linkImage()}</div>;
+                    ReactDOM.render(element, document.getElementById('email_button_container'));
+                </script>
+            </div>
         </div>
-        <br><br><br>
+        <br>
+        <div class="button-container">
+            <button class="btn" id="btn-1">PUSH 2 PARTY</button>
+        </div>
+        <br>
+        <div class="box-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <script src="app.js"></script>
     </body>
 </html>
