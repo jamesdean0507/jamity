@@ -25,7 +25,7 @@ colorBtn.addEventListener('click', function() {
     colorBtn.innerText = 'STOP'
     if(running) {
         running = false
-        colorBtn.innerText = 'PUSH 2 PARTY'
+        colorBtn.innerText = 'PARTY MODE'
     } else {
         running = true
         start()
