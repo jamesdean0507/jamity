@@ -1,6 +1,6 @@
 # jamity
 
-jamity.eth landing page
+***jamity.eth landing page***
 
 ENS Domain Link (Requires Web3 compatible browser):    https://jamity.eth/
 
